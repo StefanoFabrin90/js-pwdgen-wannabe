@@ -24,3 +24,14 @@ document.getElementById ('result').innerHTML = `Test 1: ${nome} ${cognome} ${col
 
 // test2
 // document.getElementById ('result').innerHTML = "Test 2: " + nome +' '+ cognome +' '+ colore +' '+ 21;
+
+
+// age
+
+const annoAttuale = 2021;
+
+const anniUtente = parseInt ( prompt ('inserire la propria etá') );
+
+const annoNascita = annoAttuale - anniUtente;
+
+document.getElementById ('age').innerHTML = `sei nato nel ${annoNascita}`
