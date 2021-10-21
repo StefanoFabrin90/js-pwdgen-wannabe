@@ -18,13 +18,13 @@ const colore = prompt ('Inserire il proprio colore preferito');
 console.log ('colore');
 
 // password
-const password = nome + cognome + colore + '21;'
+const password = nome + cognome + colore + '21';
 
 
 // html + valore all'elemento
 // document.getElementById ('result').innerHTML = `Test 1: ${nome} ${cognome} ${colore} 21`;
 
-document.getElementById ('result').innerHTML = `Test : ${password}`
+document.getElementById ('result').innerHTML = `Test : ${password}`;
 
 
 // test2
