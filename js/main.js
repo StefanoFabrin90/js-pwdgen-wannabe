@@ -22,6 +22,8 @@ const password = nome + cognome + colore + '21';
 
 
 // html + valore all'elemento
+
+// test1
 // document.getElementById ('result').innerHTML = `Test 1: ${nome} ${cognome} ${colore} 21`;
 
 document.getElementById ('result').innerHTML = `Test : ${password}`;
